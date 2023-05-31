@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+@font-face {
+    font-family: dreams;
+    src: url(/fonts/ChaseDreams/Chase\ Dreams.ttf);
+    font-family: coneria;
+    src: url(/fonts/Demo_ConeriaScript.ttf)
+  }
+
+  @media only screen and (min-width: 600px) {
+    body {
+        background-color: black !important;
+      }
+
+      .background {
+
+        max-width: 70%;
+        
+      }
+
+      img {
+        height:auto;
+        width: auto;
+        object-fit: contain;
+      }
+  }
+
+ 
+
+.background {
+    
+    background: #ffffff url("/img/concert-5736160.jpg") no-repeat right top;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin: auto;
+  }
+
+.section{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: column wrap;
+
+ 
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    
+}
+
+#scroll {
+ 
+    max-width: 80%;  
+    color: #ffffff;
+    font-family:coneria;
+    text-align: center;
+    align-items: center;
+}
+
+.content {
+    
+    background-color: rgba(43, 42, 41, 0.836);
+    text-align: center;
+    color: #ffffff;
+    font-family: dreams;
+    padding: 1rem;
+    
+
+}
+
+
+.card {
+display: flex;
+align-items: center;
+justify-content: end;
+margin: auto;
+max-width: 49%;
+
+    
+
+
+}
+
+img {
+    
+    height: auto;
+    width: auto;
+    object-fit:cover;
+    
+    
+}
+
+.btn {
+    position:absolute;
+    margin-bottom: 10px;
+    
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0.726) !important;
+    color: #ffffff !important;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+label {
+    color: #ffffff;
+}
+
+.a {
+    color: black;
+}
