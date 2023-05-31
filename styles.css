@@ -34,7 +34,7 @@
 
 .background {
     
-    background: #ffffff url("/img/concert-5736160.jpg") no-repeat right top;
+    background: #ffffff url("./img/concert-5736160.jpg") no-repeat right top;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
